@@ -359,6 +359,12 @@ hr {
 
 
     }
+    .heading {
+        display: flex;
+        padding: 20px 100px 10px 100px;
+        justify-content: center;
+        align-items: center;
+    }
 
     .navigation,
     ul,
