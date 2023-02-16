@@ -1,0 +1,570 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Banner body */
+.banner {
+    background-color: rgba(255, 144, 14, 0.1);
+    height: 100vh;
+    width: 100%;
+}
+/* Headeer */
+.heading {
+    display: flex;
+    padding: 20px 100px 10px 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Navigation style */
+.navigation,
+ul,
+li {
+    display: flex;
+    list-style: none;
+}
+/* heading -title */
+
+.heading-title {
+    color: #131313;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+/* Anchor style */
+
+li,
+a {
+    text-decoration: none;
+    margin-left: 10px;
+    color: #424242;
+    font-size: 16px;
+}
+
+/* Banner inner content */
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+/* banner description */
+.banner-description {
+    text-align: center;
+}
+
+/* banner title */
+.banner-title {
+    font-size: 45px;
+    color: #131313;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+/* Banner detail */
+.banner-detail {
+    color: #727272;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* image */
+
+.img {
+    width: 100%;
+    height: 100%;
+}
+/* Banner button */
+.btn {
+    background-color: #FF900E;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    padding: 16px 28px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Team grid part */
+.team {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 208px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    align-items: center;
+}
+
+/* Main part */
+.main {
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    margin-bottom: 8.125rem;
+}
+
+/* Team image */
+.team,
+img {
+    width: 12.5rem;
+    height: 12.5rem
+}
+
+/* second part after team grid part */
+.second-part {
+    margin-left: 18.75rem;
+}
+
+.team-title {
+    font-size: 40px;
+    margin-bottom: 30px;
+    margin-top: 200px;
+}
+.ql-color{
+   color:#727272 ; 
+}
+.feature-clr{
+    color: #FF900E;
+}
+.title-deccription {
+    color: #727272;
+    font-size: 16px;
+    padding-bottom: 10px;
+
+}
+/* button 2 or team button */
+.btn-2 {
+    background-color: #FF900E;
+    color: white;
+    font-weight: 600;
+    font-weight: 14px;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    margin-top: 20px;
+
+}
+/* feature part */
+.feature-part {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+/* feature image */
+.feature-img {
+    width: 550px;
+    height: 729px;
+    mix-blend-mode: luminosity;
+}
+/* card inside feature part */
+.feature-card {
+    width: 586px;
+    height: 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.card-description {
+    color: #727272;
+    font-size: 16px;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #131313;
+    margin-bottom: 5px;
+}
+
+.feature-title {
+    color: #131313;
+    font-size: 40px;
+    font-weight: 700;
+    border-left: 5px solid #FF900E;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+/* feature button */
+.btn-3 {
+    margin-left: 850px;
+    margin-top: -100px;
+    background: #FF900E;
+    position: absolute;
+    width: 220px;
+    height: 150px;
+    border-radius: 8px;
+    border: none;
+}
+
+.btn-title {
+    font-size: 45px;
+    color: #FFFFFF;
+}
+
+.btn-des {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 26;
+}
+
+.facts {
+    margin-left: 180px;
+    margin-top: 60px;
+}
+
+.facts-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+/* Middile part */
+.middle-part {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 0px;
+}
+
+/* box style */
+.box {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.box-img {
+    width: 45px;
+    height: 45px;
+    margin-top: 25px;
+}
+
+.box:hover {
+    transform: rotate(45deg);
+    background-color: #f0e8de;
+
+}
+
+/* sponsor part */
+.sponsor-banner {
+    text-align: center;
+}
+
+.sponsor-title {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.sponsor {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    background-color: #FFFFFF;
+    margin: 100px 0px;
+}
+/* logo image  */
+.logo {
+    height: 40px;
+    width: 130px;
+    mix-blend-mode: luminosity;
+
+}
+/* EXTRA contact part */
+.contact-banner {
+    font-size: 45px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    gap: 100px;
+}
+
+.contact-title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.contact-sub {
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+input {
+    height: 30px;
+    width: 250px;
+    margin-bottom: 20px;
+    border: 1px solid #FF900E;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Footer-part */
+.footer {
+    width: 80%;
+    margin: auto;
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+
+.footer-detail {
+    font-size: 16px;
+    padding: 30px 400px;
+    color: #424242;
+}
+/* social icon */
+.social {
+    font-size: 50px;
+    background-color: white;
+    color: rgb(6, 182, 241);
+    margin: 50px 0px 0px 15px;
+}
+
+hr {
+    width: 80%;
+    margin: auto;
+}
+
+/* ----------------------MOBILE */
+                               /* RESPONSIVE */
+@media screen and (max-width: 576px) {
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .banner {
+        height: 75vh;
+        width: 100%;
+
+
+    }
+
+    .navigation,
+    ul,
+    li {
+        flex-direction: column;
+
+    }
+
+    .heading-title {
+        font-size: 1rem;
+
+    }
+
+    li,
+    a {
+        margin-left: 80px;
+        font-size: 14px;
+    }
+
+    .banner-content {
+
+        flex-direction: column-reverse;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .banner-title {
+        font-size: 30px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+
+    .main {
+
+        flex-direction: column;
+
+
+    }
+
+    .team {
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 80px;
+        margin-right: 220px;
+
+    }
+
+    .second-part {
+
+        text-align: center;
+        margin-top: 500px;
+        margin-right: 200px;
+
+
+    }
+
+    .team,
+    img {
+        width: 300px;
+        height: 200px;
+
+    }
+
+    .feature-part {
+        flex-direction: column-reverse;
+        margin-top: 800px;
+        /* border: 1px solid black; */
+
+
+
+
+    }
+
+    .feature-title {
+        font-size: 25px;
+        margin-left: 15px;
+
+    }
+
+    .f-des {
+        font-size: 14px;
+        margin-left: 15px;
+
+    }
+
+    .feature-img {
+        width: 300px;
+        height: 400px;
+        margin-left: 35px;
+
+    }
+
+    .btn-3 {
+        margin-left: 155px;
+        margin-top: -840px;
+        width: 180px;
+        height: 100px;
+
+    }
+
+    .feature-card {
+        width: 250px;
+        height: 100px;
+        padding-left: 40px;
+        margin-left: 15px;
+
+
+    }
+
+    .card-title {
+        font-size: 16px;
+
+    }
+
+    .card-description {
+        color: #727272;
+        font-size: 14px;
+
+
+    }
+
+    .facts {
+        margin-left: 10px;
+        margin-top: 30px;
+
+    }
+
+    .facts-title {
+        font-size: 30px;
+
+    }
+
+    .middle-part {
+        display: flex;
+        gap: 15px;
+        margin: 30px 0px;
+
+    }
+
+    .box {
+        width: 100px;
+        height: 100px;
+        border-radius: 5px;
+
+
+    }
+
+    .box-img {
+        width: 30px;
+        height: 30px;
+        margin-top: 15px;
+
+    }
+
+    .box:hover {
+        transform: rotate(25deg);
+        background-color: #f0e8de;
+
+    }
+
+    .sponsor-title {
+        font-size: 25px;
+
+        margin-bottom: 15px;
+
+    }
+
+    .sponsor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        background-color: #FFFFFF;
+        margin: 50px 0px;
+
+    }
+
+    .contact {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+        gap: 30px;
+    }
+
+    .contact-title {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+
+    .footer-detail {
+        font-size: 14px;
+        padding: 10px 20px;
+        color: #424242;
+    }
+
+    .social {
+        margin: 20px 0px 0px 25px;
+    }
+
+    .contact-title {
+        margin: 20px 0px;
+    }
+
+}
